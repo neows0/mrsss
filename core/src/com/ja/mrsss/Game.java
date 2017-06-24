@@ -10,10 +10,17 @@ public class Game extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
 	
+	public static final String TITLE = "Stab Slash Slice - The Game";
+	public static final int V_WIDTH = 320;
+	public static final int V_HEIGHT = 240;
+	public static final int SCALE = 2;
+	
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
 		img = new Texture("badlogic.jpg");
+		
+		
 	}
 
 	@Override
